@@ -1,0 +1,28 @@
+:root {
+  --mainColor: #ff9900;
+}
+
+
+body {
+  font-family: Avenir, sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+a {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-size .2s;
+}
+
+a:hover {
+  background-size: 4px 50px;
+}
