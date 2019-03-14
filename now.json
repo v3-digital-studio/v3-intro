@@ -9,5 +9,6 @@
         "distDir": "public"
       }
     }
-  ]
+  ],
+  "alias": ["v3digital.studio"]
 }
